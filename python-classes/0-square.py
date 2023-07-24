@@ -1,12 +1,5 @@
 #!/usr/bin/python3
-    """ 
-        class square: def type of date.
-    """
+""" class square: def type of date."""
 class Square:
-    """
-        this is an class Square and pass for not value.
-
-        for know the typ of date.
-    """
-    pass
-    
+    """this is an class Square and pass for not value."""
+    pass 
