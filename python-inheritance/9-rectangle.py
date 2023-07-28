@@ -13,8 +13,6 @@ class BaseGeometry:
             raise TypeError("{} must be an integer".format(name))
         if value < 0:
             raise ValueError("{} must be greater than 0".format(name))
-    
-"""class Rectangle"""
 
 
 class Rectangle(BaseGeometry):
@@ -27,7 +25,9 @@ class Rectangle(BaseGeometry):
         self.__height = height
 
     def area(self):
+        """metodo calcular area"""
         return self.__width * self.__height
 
     def __str__(self):
-        return  "[Rectangle] {}/{}".format(self.__width, self.__height)
+        """metodo para imprimir"""
+        return "[Rectangle] {}/{}".format(self.__width, self.__height)
