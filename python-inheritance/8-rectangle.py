@@ -2,7 +2,7 @@
 """class Rectangle"""
 
 
-from base_geometry import BaseGeometry
+
 class Rectangle(BaseGeometry):
     """metodo de instancia __init__"""
 
