@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""function filename open"""
+
+
 def read_file(filename=""):
     """function using with for print"""
 
