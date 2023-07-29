@@ -14,7 +14,7 @@ def save_to_json_file(my_obj, filename):
         json.dump(my_obj, f)
 
 def load_from_json_file(filename):
-        """return of filename to object"""
+    """return of filename to object"""
 
     with open(filename, "r") as f:
         return json.load(f)
