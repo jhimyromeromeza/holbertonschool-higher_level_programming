@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""function para conbertir object en formato JSON"""
+"""function for changes the objet to sting json"""
 
 import json
 
