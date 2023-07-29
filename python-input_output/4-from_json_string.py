@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """function of string format JSON to objt"""
 
-
 import json
 
 def from_json_string(my_str):
