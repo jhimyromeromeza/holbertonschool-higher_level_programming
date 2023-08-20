@@ -1,0 +1,2 @@
+-- list DATABASE of the mySQL.
+SHOW DATABASES;
