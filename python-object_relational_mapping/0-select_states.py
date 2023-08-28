@@ -6,8 +6,12 @@ import sys
 import MySQLdb
 
 if __name__ == '__main__':
-        db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2],
-                            db=sys.argv[3], port=3306)
+    """
+    Access to the database and get the states
+    from the database.
+    """
+    db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2],
+                        db=sys.argv[3], port=3306)
 
     cur = db.cursor()
     cur.execute("SELECT * FROM states;")
